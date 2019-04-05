@@ -1,0 +1,64 @@
+
+.threelbtext{
+	width: 383px;
+	height: 250px;
+	float: left;
+	margin:41px 20px 0px 10px;
+	text-decoration: none; 
+	position: relative;
+	left: 67px;
+}
+.threelbtext li{
+	height: 50px;
+}
+.threelbtext li a{
+	color: black;
+}
+.threelbtext li a:hover{
+	color: blue;
+}
+.fourb img{
+	width: 326px;
+	height: 200px;
+}
+.threerb ol{
+	list-style: none;
+}
+.threerb li{
+	height: 70px;
+}
+.threerb a{
+	text-decoration: none;
+}
+.threerb img{
+	float: left;
+	width: 100px;
+	height: 50px;
+}
+
+.sixrb ol{
+	list-style: none;
+}
+.sixrb img{
+	float: left;
+	width: 64px;
+	height: 50px;
+}
+.sixrb a{
+	text-decoration: none;
+}
+.sixrb li{
+	height: 70px;
+}
+.sixlb img{
+	float: left;
+	width: 75px;
+	height: 50px;
+	margin-right: 15px;
+}
+.sixlb ol{
+	list-style: none;
+}
+.sixlb a{
+	text-decoration: none;
+}

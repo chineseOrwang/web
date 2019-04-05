@@ -1,0 +1,144 @@
+.zhengleft{
+	width: 284px;
+	height: 900px;
+	margin-left: 15px;
+/*	background: url("../imagess/gray.png");*/
+	background-size: 100% 100%;
+	/*border: 1px dotted gray;*/
+	float: left;
+	clear: both;
+}
+.zhengleft ol{
+	list-style: none;
+	margin-top: 20px;
+	/*padding: 50px 50px 50px 50px;*/
+}
+.zhengleft ol li{
+	/*height: 53px;*/
+	margin-bottom: 10px;
+}
+.zhengleft ol li a{
+	color: white;
+	text-decoration: none;
+}
+.zhengleft ol li a:hover{
+	cursor: pointer;
+}
+/*图片欣赏*/
+.xinli{
+	display: block;
+	width: 200px;
+	height: 170px;
+	overflow: hidden;
+}
+.xinshang li{
+	font-size: 23px;
+}
+.xinshang img{
+	width: 200px;
+	height: 170px;
+}
+/*first*/
+.flone,.fltwo,.flthree,.flfour,.flfive{
+	display: block;
+	width: 216px;
+	height: 58px;	
+}
+.flone{
+	background: url("../imagess/firstleftone.png");
+	background-size: 100% 100%;
+}
+.fltwo{
+	background: url("../imagess/firstlefttwo.png");
+	background-size: 100% 100%;
+}
+.flthree{
+	background: url("../imagess/firstleftthree.png");
+	background-size: 100% 100%;
+}
+.flfour{
+	background: url("../imagess/firstleftfour.png");
+	background-size: 100% 100%;
+}
+.flfive{
+	background: url("../imagess/firstleftfive.png");
+	background-size: 100% 100%;
+}
+/*second*/
+.ftone,.fttwo,.ftthree,.ftfour,.ftfive{
+	display: block;
+	width: 216px;
+	height: 58px;
+}
+.ftone{
+	background: url("../imagess/sone.png");
+	background-size: 100% 100%;
+}
+.fttwo{
+	background: url("../imagess/stwo.png");
+	background-size: 100% 100%;
+}
+.ftthree{
+	background: url("../imagess/sthree.png");
+	background-size: 100% 100%;
+}
+.ftfour{
+	background: url("../imagess/sfour.png");
+	background-size: 100% 100%;
+}
+.ftfive{
+	background: url("../imagess/sfive.png");
+	background-size: 100% 100%;
+}
+/*third*/
+.fthone,.fthtwo,.fththree,.fthfour,.fthfive{
+	display: block;
+	width: 216px;
+	height: 58px;
+}
+.fthone{
+	background: url("../imagess/tone.png");
+	background-size: 100% 100%;
+}
+.fthtwo{
+	background: url("../imagess/ttwo.png");
+	background-size: 100% 100%;
+}
+.fththree{
+	background: url("../imagess/tthree.png");
+	background-size: 100% 100%;
+}
+.fthfour{
+	background: url("../imagess/tfour.png");
+	background-size: 100% 100%;
+}
+.fthfive{
+	background: url("../imagess/tfive.png");
+	background-size: 100% 100%;
+}
+/*fourth*/
+.foone,.fotwo,.fothree,.fofour,.fofive{
+	display: block;
+	width: 216px;
+	height: 58px;
+}
+.foone{
+	background: url("../imagess/foone.png");
+	background-size: 100% 100%;
+}
+.fotwo{
+	background: url("../imagess/fotwo.png");
+	background-size: 100% 100%;
+}
+.fothree{
+	background: url("../imagess/fothree.png");
+	background-size: 100% 100%;
+}
+.fofour{
+	background: url("../imagess/fofour.png");
+	background-size: 100% 100%;
+}
+.fofive{
+	background: url("../imagess/fofive.png");
+	background-size: 100% 100%;
+}

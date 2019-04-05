@@ -1,0 +1,49 @@
+body{
+	height: 1400px;
+}
+.table{
+	width: 990px;
+	height: 1013px;
+	border-radius: 50px;
+	background-size: 990px 1013px;
+}
+.tr{
+	display: block;
+	width: 990px;
+	height: 100%;
+	border-radius: 100px;
+	text-indent: 50px;
+	background: url("../imagess/box3.jpg");
+	background-size: 992px 100px;
+}
+.td{
+	border-radius: 50px;
+	overflow: hidden;
+	line-height: 30px;
+	display: block;
+	width: 990px;
+	height: 100px;
+	margin: 0 auto;
+	font-size: 26px;
+	font-family: Georgia,Times, TimesNR, 'New Century Schoolbook',  'New York', serif;
+}
+.td span{
+	line-height: 52px;
+}
+.button{
+	width: 100px;
+	height: 50px;
+	margin: 0 auto;
+	background: rgb(238,238,238);
+	box-shadow: 5px 5px 5px rgb(0,20,90);
+	font-size: 30px;
+	line-height:50px;
+	text-align: center;
+	border-radius: 20%;
+	border: 1px solid gray;
+}
+.button:hover{
+	background: rgb(200,200,200);
+	box-shadow: 7px 7px 5px rgb(0,20,90);
+	color: blue;
+}

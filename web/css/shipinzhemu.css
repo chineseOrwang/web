@@ -1,0 +1,32 @@
+.view-first img {
+   width: 326px;
+   height: 300px;
+ /*  float: left;*/
+}
+.view-first div{
+   width: 326px;
+   height: 300px;
+   opacity: 0;
+   background: rgba(111,111,111,0.7);
+   overflow: hidden;
+   position: relative;
+   top: -301px;
+}
+.view-first .tr{
+   display: block;
+   height: 300px;
+   overflow: hidden;
+}
+.shitable{
+   display: block;
+   width: 998px;
+}
+.tr td:hover div{
+   opacity: 0.9;
+}
+.mask{
+   color: white;
+   line-height: 50px;
+   /*text-align: center;*/
+   font-size: 30px;
+}

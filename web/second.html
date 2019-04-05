@@ -1,0 +1,273 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>我的军旅梦-胶东军事足迹</title>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/head.css">
+	<link rel="stylesheet" type="text/css" href="css/pageleft.css">
+	<!-- 控制文章更好看 -->
+	<link rel="stylesheet" type="text/css" href="css/pageright.css">
+	<!-- 时间轴 -->
+	<link rel="stylesheet" href="time/css/home.css">
+	<!-- 轮播图+时间动态 -->
+	<link rel="stylesheet" type="text/css" href="css/first.css">
+	<script type="text/javascript" src="js/haha.js"></script>
+</head>
+<body>
+<div class="body" style="width: 1020px; margin: 0 auto; background: url('images/back.png');background-size: 1010px 100%;">
+<div style="margin: 0 auto; width: 1000px;">  <!-- 目的居中 -->
+	<!-- 顶部 -->
+	<div class="top">
+		<div style="height: 50px"></div>   <!-- 上部空一点 -->
+		<div class="lefttop" id="lefttop" style="background-position: 0px 0px;"></div>   <!-- 左图 -->
+		<img src="images/middle.png" alt="" class="middletop" />    <!-- 中图 -->
+		<div id="time"></div>   <!-- 右时间 -->       
+		<div style="clear: both;"></div>
+	</div>
+	<!-- 头部 -->
+	<div class="head">
+		<div class="headmain"  onclick="location.href='index.html'"><span>首页</span></div>
+		<div class="headmain" onclick="location.href='first.html'"><span>风雨历程</span></div>
+		<div class="headmain" style="background: rgb(11,205,172);" onclick="location.href='second.html'"><span>胶东军旅</span></div>
+		<div class="headmain" onclick="location.href='third.html'"><span>热血青春</span></div>
+		<div class="headmain" onclick="location.href='fourth.html'"><span>军旅知识</span></div>
+		<div class="headmain" onclick="location.href='fifth.html'"><span>趣味问答</span></div>
+		<div style="clear: both;"></div>
+	</div>
+	<!-- 内容部分 -->
+<!-- 单独 -->
+<div class="zhengleft">
+	<ol id="alinks" style="font-size:20px;">
+		<li class="lli on" index="1"><a class="ftone"></a></li>
+		<li class="lli" index="2"><a class="fttwo"></a></li>
+		<li class="lli" index="3"><a class="ftthree"></a></li>
+		<li class="lli" index="4"><a class="ftfour"></a></li>
+		<li class="lli" index="5"><a class="ftfive"></a></li>
+	</ol>
+	<hr style="margin-left: -25px;">
+	<ol class="xinshang">
+		<li>图片欣赏</li>
+		<li class="xinli"><img src="imagesnew/secondff.jpg" alt="" /></li>
+		<li class="xinli"><img src="imagesnew/secondtfo.png" alt="" /></li>
+		<li class="xinli"><img src="imagesnew/secondtt.png" alt="" /></li>
+	</ol>
+</div>
+<div class="zhengright">
+	<div>&nbsp;您的位置：<a href="index.html">首页</a>->胶东军旅-><span id="secondspan">胶东军事足迹</span></div>
+	<div id="container">
+	    <div id="list" style="left: -600px;" value="5">
+	   		<!-- 传参 -->
+			<script type="text/javascript">
+				var list = document.getElementById("list");
+			    var url = location.search;
+			    str = url.split('=');
+			    list.style.left=-600*parseInt(str[1])+"px";
+			    // 你的位置中文字
+			    var secondspan = document.getElementById('secondspan');
+			    setInterval(function(){
+			        var num = parseInt(list.style.left);
+			        switch(num){
+			            case -600:
+			                secondspan.innerHTML="胶东军事足迹";
+			                break;
+			            case -1200:
+			                secondspan.innerHTML="烟台东炮台简介";
+			                break;
+			            case -1800:
+			                secondspan.innerHTML="烈士英模";
+			                break;
+			            case -2400:
+			                secondspan.innerHTML="海阳地雷战";
+			                break;
+			            case -3000:
+			                secondspan.innerHTML="八路军胶东军区旧址";
+			                break;
+			            default:;
+			        }
+			    },5)
+			</script>
+			<div class="img secondt" style="overflow-y:scroll;overflow-x: hidden; ">
+	    		<h1>八路军胶东军区旧址纪行</h1>
+	    		<br/>
+	    		<p style="text-indent: 2em;">
+	    			“八路军胶东军区机关旧址”位于海阳市郭城镇。
+	    		</p>
+	    		<img src="imagesnew/secondtf.png">
+	    		<br/>
+	    		<p style="text-indent: 2em;">
+	    			机关旧址是一片古朴的民居，走在小巷内，如同穿越到了上个世纪，回到战争年代。
+	    		</p>
+	    		<img src="imagesnew/secondts.png">
+	    		<br/>
+	    		<p style="text-indent: 2em;">
+	    			旧址致力于还原历史原貌，突出“军爱民、民拥军”主题。旧址区内修复了演武广场、磨盘广场、古井广场、饮马广场四个广场以及44栋胶东民宅，民宅重点复原抗日军民学校、组织科、林浩旧居、许世友旧居、胶东军区司令部、生产科、野战医院手术室等。
+	    		</p>
+	    		<br>
+	    		<img src="imagesnew/secondtt.png" style="float: left;border-radius: 50%;height:200px;width:200px;">
+	    		<img src="imagesnew/secondtfo.png" style="float:right;border-radius: 50%;height:200px;width:200px;">
+			</div>
+	    	<div class="img" style="overflow: hidden;">
+				<h1>胶东军事足迹</h1>
+				<br/>
+		    		<div style="height: 514px;width: 700px;">
+		    			<img src="video/dizhi.gif" alt="" style="height: 514px;width: 598px;" />
+		    		</div>
+		    		<div style="width: 123px;height: 28px;position: absolute;top:105px;left:1065px;background: white;"></div>
+		    		<!-- <div style="width: 144px;height: 21px;position: absolute;top:517px;left:1056px;background: white;"></div> -->
+				<p style="text-indent: 2em;">
+		    		《烟台红色旅游指南》确立了28处红色旅游景点，并策划出三条主要的红色旅游线路，分别为：①以胶东革命游击队发展历程为主题的都市红色旅游线；②以胶东抗战为主题的海阳、莱阳、栖霞红色旅游线路；③以全力支援运兵东北和华东地区解放战争为主题的蓬长龙红色旅游线路。
+	    		</p>
+	    	</div>
+	    	<div class="img secondf">
+	    		<h1>东炮台简介</h1>
+	    		<br/>
+	    		<p style="text-indent: 2em;">
+	    			<img src="imagesnew/secondff.jpg">
+	    			东炮台海滨风景区位于烟台最美丽的滨海路段，具有得天独厚的地理位置和景观资源。风景区拥有辽阔的海域，风光旖旎，海水清澈，是集海滨自然风光、古迹遗址、历史文化人文自然景观于一体的新兴大型海滨旅游景区。
+	    		</p>
+	    		<br/>
+	    		<p style="text-indent: 2em;">
+	    			<img src="imagesnew/secondfs.png" style="float: left;width: 150px;height: 150px;border-radius: 50%;">
+	    			<img src="imagesnew/secondft.png" style="width: 150px;height: 150px;border-radius: 50%;">
+	    			古炮台是北方罕见的保存较为完整的海防设施，具有很高的历史文化价值。1891年，北洋大臣李鸿章经过考证，发现这里是难得的海防重地，于是奏请光绪帝在此兴建炮台，并请德国技师督造安装了当时技术最先进的克虏伯大炮。	
+	    		</p>
+	    		<br/>
+	    		<p style="text-indent: 2em;">
+	    			<img src="imagesnew/secondffo.png">
+	    			山光、海色、人文、遗址完美地结合在一起，增添了东炮台的无限魅力；阳光、沙滩、碧海蓝天、美景神韵展现出东炮台诗情画意的风景线。
+	    		</p>
+	    		<br/>
+	    	</div>
+	    	<div class="img seconds" style="overflow-y:scroll; ">
+	    		<h1>烈士英模</h1>
+	    		<br/>
+	    		<p style="text-indent: 2em;">
+	    			<img src="imagesnew/secondsf.jpg">
+	    			传奇将军许世友在山东16年，在胶东指挥作战9年，在海阳留下了许多光辉的战斗足迹。1942年7月1日，八路军胶东军区在海阳县朱吴村成立，后军区机关迁至郭城镇战场泊村。期间，许世友将军率领胶东军民进行了艰苦卓绝的抗日战争，取得了辉煌战绩。毛泽东主席曾称赞：在许世友领导下的胶东子弟兵“打红了胶东半边天”。
+	    		</p>
+	    		<br/>
+	    		<p style="text-indent: 2em;">
+	    			1945年8月15日，日本政府宣告无条件投降，24日拂晓，烟台胜利解放。在解放烟台战斗中，共歼灭日伪军1500多人，八路军将士89人壮烈牺牲。为了纪念在解放烟台的战斗中献身的抗日英雄，烟台市人民政府根据胶东行署的指示，于1946年5月，在烟台山忠烈祠西侧修建“抗日烈士纪念碑’。碑身高8米，呈五菱柱形，由乳白色的花岗岩石块砌筑。碑的正南面为“民族英雄名垂千古”八个红色大字，背面铭刻着89位烈士的英名。
+	    		</p>
+	    		<br/>
+	    		<p style="text-indent: 2em;">
+	    			<img src="imagesnew/secondss.jpg">
+	    			烟台“抗日烈士纪念碑”八路军将士名单为：主任：张黎；营长：田夫；连长：刘仲振、任书竹；副连长：高淑瑞；指导员：马镜；军医：胡道先；排长：杨志强；副排长：张玉峰；排政干：夏毓文；班长：徐志国、金相修、孙学俭；副班长：孙德本、杨洪 祥、陈嘉庆；战士：姜铎芳、袁新芷、于新海等英模89人。
+	    		</p>
+	    		<br/>
+	    	</div>
+	    	<div class="img" style="overflow-x: hidden;"autoplay="autoplay">
+	    		<h1>曾在海阳投放的哑弹</h1>
+	    		<div style="margin-left:130px;width:320px; height:240px">
+		    		<video width="320" height="240" controls="controls" controls>
+					  <source src="video/first.webm" type="video/webm" />
+					  <source src="video/first.ogg" type="video/ogg" />
+					  <source src="video/first.mp4" type="video/mp4" />
+					  <object data="video/first.mp4" width="320" height="240">
+					    <embed width="320" height="240" src="video/first.swf" />
+					  </object>
+					</video>
+				</div>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<p style="text-indent: 2em;">
+    			军事基地博物馆的哑弹求之不易，据工作人员介绍，投放哑弹是针对许世友将军所在的胶东军区的轰炸行动。当年投放在海阳市有三枚哑弹，其中有两枚哑弹已经爆炸，这枚哑弹是三枚中的一枚。
+    			</p>
+			</div>
+			<div class="img secondt" style="overflow-y:scroll;overflow-x: hidden; ">
+	    		<h1>八路军胶东军区旧址纪行</h1>
+	    		<br/>
+	    		<p style="text-indent: 2em;">
+	    			“八路军胶东军区机关旧址”位于海阳市郭城镇。
+	    		</p>
+	    		<img src="imagesnew/secondtf.png">
+	    		<br/>
+	    		<p style="text-indent: 2em;">
+	    			机关旧址是一片古朴的民居，走在小巷内，如同穿越到了上个世纪，回到战争年代。
+	    		</p>
+	    		<img src="imagesnew/secondts.png">
+	    		<br/>
+	    		<p style="text-indent: 2em;">
+	    			旧址致力于还原历史原貌，突出“军爱民、民拥军”主题。旧址区内修复了演武广场、磨盘广场、古井广场、饮马广场四个广场以及44栋胶东民宅，民宅重点复原抗日军民学校、组织科、林浩旧居、许世友旧居、胶东军区司令部、生产科、野战医院手术室等。
+	    		</p>
+	    		<br>
+	    		<img src="imagesnew/secondtt.png" style="float: left;border-radius: 50%;height:200px;width:200px;">
+	    		<img src="imagesnew/secondtfo.png" style="float:right;border-radius: 50%;height:200px;width:200px;">
+			</div>
+			<div class="img" >
+	    		<div class="contrainerer headerer">
+					<div class="w1000 tc body">
+						<div class="event_wrap clearfix">
+							<div class="middle_line" style="position: absolute;">					
+							</div>			
+						</div>
+					</div>
+				</div>
+		    	<script src="time/js/jquery.min.js"></script>
+				<script src='time/js/jquery.eventFlow.js'></script>
+				<script>
+					$(function(){
+						var bigEvent =[
+							{
+								'year' : 1927,
+								'events' :[
+									{
+										'mouths' : 4,
+										'times' :'1927年4月',
+										'even' :'蒋介石发动“四一二”政变，共产党人遭到驱逐。'
+									},{
+										'mouths' :8,
+										'times' :'1927年8月1日',
+										'even' :'打响了武装反抗国民党的第一枪。最终占领了南昌城！'
+									},{
+										'mouths' : 9,
+										'times' :'1929年9月',
+										'even' :'秋收起义，首次公开打出中国共产党的革命旗帜。'
+									}
+								]
+							},
+							{
+								'year' : 1933,
+								'events' :[
+									{
+										'mouths' : 11,
+										'times' :'1933年7月11日',
+										'even' :'苏维埃政府决定8月1日为中国工农红军成立纪念日。'
+									},
+									{
+										'mouths' : 12,
+										'times' :'1949年10月1日',
+										'even' :'8月1日改称为中国人民解放军建军节。'
+									},
+								]
+							}
+						];
+						$('.event_wrap').eventFlow({'events':bigEvent});
+					})
+				</script>
+	    	</div>
+	    </div>
+	    <div id="buttons">
+	        <span index="1" class="on">第一篇</span>
+	        <span index="2">第二篇</span>
+	        <span index="3">第三篇</span>
+	        <span index="4">第四篇</span>
+	        <span index="5">第五篇</span>
+	    </div>
+	    <a href="javascript:;" id="prev" class="arrow">&lt;</a>
+	    <a href="javascript:;" id="next" class="arrow">&gt;</a>
+	</div>
+</div>
+<div style="height:40px;"></div>
+<div class="bottom" style="text-align:center;height: 50px;">
+</div>
+</div>
+</div>
+</body>
+</html>

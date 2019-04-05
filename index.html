@@ -1,0 +1,144 @@
+﻿<html>
+<head>
+<meta charset="utf-8">
+<!-- <meta http-equiv="Refresh" content="20; url=web/index.html" />  -->
+<title>我的军旅梦</title>
+<link rel="shortcut icon" type="image/x-icon" href="web/favicon.ico">
+<style type="text/css">
+body {
+	cursor:crosshair;
+	margin:0; padding:0;
+	position:absolute; 
+	overflow:hidden;
+	background:url("web/images/welcome.png"); 
+	background-size: 100% 100%;
+	left:0; top:0;
+	width:100%; height:100%;
+}
+img{
+	/*气泡的宽高*/
+	width:180px;
+	height: 180px;
+	border-radius: 50%;
+	opacity: 0.8;
+}
+.button{
+	cursor:pointer;
+	margin: 0 auto;
+	width: 250px;
+	height: 100px;
+	background: rgb(220,220,220);
+	color: #33A1C9;
+	font-size: 30px;
+	line-height: 35px;
+	border-radius: 10px;
+	border: 1px solid white;
+	text-align: center;
+	position: fixed;
+	bottom: 3px;
+	right: 3px;
+}
+.button:hover{
+	background: rgb(80,225,200);
+	color: blue;
+	border-radius: 10px;
+	border: 1px dotted blue;
+}
+</style>
+<script type="text/javascript">
+var object = new Array();
+nbfm  = 10;      //气泡个数
+var xm = 0;
+var ym = 9999;
+var nx = 0;
+var ny = 0;
+function movbulb(){
+	with (this) {
+		// if(ec < 5){
+			// 气泡摆动转变
+			if(Math.abs(x0 - xm) < 100 && Math.abs(y0 - ym) < 100){
+				// 如果xm和x0相差100以内，就改变xx值
+				xx = (xm - x0) / 8;
+				yy = (ym - y0) / 8;
+				ec++;
+			}
+		// }
+		xx *= 0.99;
+		yy *= 0.99;
+		x0 = Math.round(x0 + Math.cos(y0 / 15) * p) + xx;
+		y0+= yy - v;
+		if(y0 < -h * 2 || x0 < -w * 2 || x0 > nx + w * 2){
+			//y0 = ny + N + h * 2;
+			y0=600+N*200;
+			x0 = nx/2-100 + Math.random() * 100;
+			// x0 = Math.random() * 2000;    //气泡生成位置
+			ec = 0;
+		}
+	obj.style.top = y0 - h;
+	obj.style.left = x0 - w;
+		object[i].onmousemove = function(){alert("haha");}
+	// obj.style.left = Math.floor(40*Math.random());
+	}
+}
+function CObj(N,img,w,h){    //w,h 摆动幅度
+	this.obj = document.createElement("img");    //获取img
+	this.obj.src = img.src;
+	this.obj.style.position = "absolute";
+	this.obj.style.left = -1000;
+	document.body.appendChild(this.obj);
+	this.N = N;
+	this.x0 = 0;
+	this.y0 = -1000;
+	this.v = 1 + Math.round((80 / h) * 0.5);
+	this.p = 1 + Math.round((w / 8) * Math.random());
+	this.xx = 0;
+	this.yy = 0;
+	this.ec = 0;
+	this.w = w;
+	this.h = h;
+	this.movbulb = movbulb;
+}
+function resize(){
+	nx = document.body.offsetWidth;
+	ny = document.body.offsetHeight;
+}
+onresize = resize;
+document.onmousemove = function(e){    //onmousemove事件
+	if (window.event) e = window.event;
+	xm = document.body.scrollLeft+(e.x || e.clientX);
+	ym = document.body.scrollTop+(e.y || e.clientY);
+	console.log(document.body.scrollLeft);
+	console.log("xm"+xm+"ym"+ym+"ex"+e.x+"eclient"+e.clientX);
+}
+function run(){
+	for(i in object){
+		object[i].movbulb();
+	}
+	setTimeout(run, 35);    //气泡的速度，越大越慢
+}
+onload = function() {
+	PIC = document.getElementById("bubbles").getElementsByTagName("img");
+	resize();
+	for(nbf=0;nbf<nbfm;nbf++){
+		sf = PIC[nbf%PIC.length];    //获取原html中img对象
+		object[nbf] = new CObj(nbf,sf,sf.width/6,sf.height/6);
+	}
+	run();
+}
+</script>
+</head>
+<body onclick="location.href='web/index.html'">
+<div id="bubbles" style="visibility:hidden;">
+<img src="web/images/bu1.png">
+<img src="web/images/bu2.png">
+<img src="web/images/bu3.png">
+<img src="web/images/bu4.png">
+<img src="web/images/bu5.png">
+<img src="web/images/bu6.png">
+<img src="web/images/bu7.png">
+<img src="web/images/bu8.png">
+<img src="web/images/bu9.png">
+<img src="web/images/bu10.png">
+</div>
+</body>
+</html>

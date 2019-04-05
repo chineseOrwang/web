@@ -1,0 +1,248 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>我的军旅梦-军旅知识</title>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/head.css">
+	<link rel="stylesheet" type="text/css" href="css/pageleft.css">
+	<!-- 控制文章更好看 -->
+	<link rel="stylesheet" type="text/css" href="css/pageright.css">
+	<!-- 时间轴 -->
+	<link rel="stylesheet" href="time/css/home.css">
+	<!-- 轮播图+时间动态 -->
+	<link rel="stylesheet" type="text/css" href="css/first.css">
+	<script type="text/javascript" src="js/haha.js"></script>
+</head>
+<body>
+<div class="body" style="width: 1020px; margin: 0 auto; background: url('images/back.png');background-size: 1010px 100%;">
+<div style="margin: 0 auto; width: 1000px;">  <!-- 目的居中 -->
+	<!-- 顶部 -->
+	<div class="top">
+		<div style="height: 50px"></div>   <!-- 上部空一点 -->
+		<div class="lefttop" id="lefttop" style="background-position: 0px 0px;"></div>   <!-- 左图 -->
+		<img src="images/middle.png" alt="" class="middletop" />    <!-- 中图 -->
+		<div id="time"></div>   <!-- 右时间 -->       
+		<div style="clear: both;"></div>
+	</div>
+	<!-- 头部 -->
+	<div class="head">
+		<div class="headmain" onclick="location.href='index.html'"><span>首页</span></div>
+		<div class="headmain" onclick="location.href='first.html'"><span>风雨历程</span></div>
+		<div class="headmain" onclick="location.href='second.html'"><span>胶东军旅</span></div>
+		<div class="headmain" onclick="location.href='third.html'"><span>热血青春</span></div>
+		<div class="headmain" style="background: rgb(11,205,172);" onclick="location.href='fourth.html'"><span>军旅知识</span></div>
+		<div class="headmain" onclick="location.href='fifth.html'"><span>趣味问答</span></div>
+		<div style="clear: both;"></div>
+	</div>
+	<!-- 内容部分 -->
+<!-- dandu -->
+<div class="zhengleft">
+	<ol id="alinks">
+		<li class="lli on" index="1"><a class="foone"></a></li>
+		<li class="lli" index="2"><a class="fotwo"></a></li>
+		<li class="lli" index="3"><a class="fothree"></a></li>
+		<li class="lli" index="4"><a class="fofour"></a></li>
+	</ol>
+	<hr style="margin-left: -25px;">
+	<ol class="xinshang">
+		<li>图片欣赏</li>
+		<li class="xinli"><img src="imagestext/junqi/one.jpg" alt="" /></li>
+		<li class="xinli"><img src="imagestext/junqi/five.jpg" alt="" /></li>
+		<li class="xinli"><img src="imagestext/junqi/three.jpg" alt="" /></li>
+	</ol>
+</div>
+<div class="zhengright">
+	<div>&nbsp;您的位置：<a href="index.html">首页</a>->军旅知识-><span id="fourthspan">军徽</span></div>
+	<div id="container">
+	    <div id="list" style="left: -600px;" value="4">
+	    	<!-- 传参 -->
+			<script type="text/javascript">
+				var list = document.getElementById("list");
+			    var url = location.search;
+			    str = url.split('=');
+			    list.style.left=-600*parseInt(str[1])+"px";
+                    // 你的位置中文字
+                    var thridspan = document.getElementById('thridspan');
+                    setInterval(function(){
+                        var num = parseInt(list.style.left);
+                        switch(num){
+                            case -600:
+                                fourthspan.innerHTML="军徽";
+                                break;
+                            case -1200:
+                                fourthspan.innerHTML="军歌";
+                                break;
+                            case -1800:
+                                fourthspan.innerHTML="军旗";
+                                break;
+                            case -2400:
+                                fourthspan.innerHTML="影视作品";
+                                break;
+                            case -3000:
+                                fourthspan.innerHTML="";
+                                break;
+                            default:;
+                        }
+                    },5)
+			</script>
+	    	<div class="img">
+	    		<h1>影视作品——强军之路</h1>
+	    		<br/>
+	    		<p style="text-indent: 2em;">
+	    			《强军之路》系列作品出自《将改革进行到底》大型政论专题片。
+	    		</p>
+	    		<div style="margin: 0 auto;width: 320px;height: 240px;">
+	    			<video width="320" height="240" controls="controls" controls>
+					  <source src="video/one.webm" type="video/webm" />
+					  <source src="video/one.ogg" type="video/ogg" />
+					  <source src="video/one.mp4" type="video/mp4" />
+					  <object data="video/one.mp4" width="320" height="240">
+					    <embed width="320" height="240" src="video/one.swf" />
+					  </object>
+					</video>
+				</div>
+	    		《强军之路》上：
+		    	<p style="text-indent: 2em;">
+					本集分为两大部分：一是反映“为什么改”，深刻阐述习主席领导推动改革强军的政治意蕴和战略考量，讲清改革的“时与势”；二是反映“怎么改”，采取讲故事手法，叙议结合，生动展现习主席亲自领导和运筹设计改革，再现这轮改革科学周密的研究论证过程，从总体上介绍改革的指导思想、目标任务和基本原则。本集还初步总结了军队改革组织实施的经验做法，体现这轮改革的缜密筹划、谋定后动，在无声中实现巨变，在行进间完成转身等特点。
+				</p>
+	    			<video width="320" height="240" controls="controls" controls>
+					  <source src="video/two.webm" type="video/webm" />
+					  <source src="video/two.ogg" type="video/ogg" />
+					  <source src="video/two.mp4" type="video/mp4" />
+					  <object data="video/two.mp4" width="320" height="240">
+					    <embed width="320" height="240" src="video/two.swf" />
+					  </object>
+					</video>
+	    		《强军之路》下：
+		    	<p style="text-indent: 2em;">
+					敢于梦想是希望的沃土，勇于变革是制胜的先机，深度设计战略运筹，统率三军踏上伟大征程。习总书记宣布：“我命令，各战区要牢记使命，坚决贯彻党在新形势下的强军目标。”道道军令指挥攻坚大战，百万将士听党指挥决胜疆场！转型重塑三军焕然一新，放眼世界谋发展和平。与强国梦共铸民族伟业，和强军梦铁心同行，改革未有穷期，强军正在路上。
+				</p>
+	    	</div>
+	    	<div class="img">
+	    		<h1>军徽</h1>
+	    		<br/>
+	    		<p style="text-indent: 2em;">
+	    			“八一”军徽是中国人民解放军的重要标识徽记，也是解放军帽徽及军种符号的核心图案。 
+	    		</p>
+	    		<br/>
+		    	<img src="imagestext/junhui/one.png" style="width: 490px;height: 322px;margin-left: 60px;">
+		    	<br />
+		    	<br />
+		    	<p style="text-indent: 2em;">
+					中国人民解放军军徽，是 1949年 6月 15日由中国人民革命军事委员会命令颁布启用的，样式为镶有金黄色边的五角红星，中嵌金黄色“八一”两字，亦称“八一”军徽。红色为革命的颜色，让我们时刻铭记着战士勇于献身、不怕牺牲的鲜血，红星象征中国人民获得解放；“八一”两字表示1927年8月1日中国工农红军为反对国民党反动派，举行南昌起义，也代表着中国人民解放军的诞生。
+				</p>
+			</div>
+	    	<div class="img" style="text-align: center;">
+	    		<h1>军歌</h1><br/>
+	    		<h4>军中绿花</h4>
+				<audio src="music/军中绿花.mp3" controls="controls"></audio><br/><br/>
+	    		<h4>东方之珠</h4>
+				<audio src="music/东方之珠.mp3" controls="controls"></audio><br/><br/>
+	    		<h4>歌唱祖国</h4>
+				<audio src="music/歌唱祖国.mp3" controls="controls"></audio><br/><br/>
+	    		<h4>咱当兵的人</h4>
+				<audio src="music/咱当兵的人.mp3" controls="controls"></audio><br/><br/>
+	    		<h4>没有共产党就没有新中国</h4>
+				<audio src="music/没有共产党就没有新中国.mp3" controls="controls"></audio><br/><br/>
+	    		<h4>保卫黄河</h4>
+				<audio src="music/保卫黄河.mp3" controls="controls"></audio><br/><br/>
+	    		<h4>打靶归来</h4>
+				<audio src="music/打靶归来.mp3" controls="controls"></audio><br/><br/>
+	    	</div>
+	    	<div class="img firstf" style="overflow-y: scroll;">
+				<h1>军旗的发展历程</h1>
+	    		<br />
+				<p style="text-indent: 2em;">
+					军旗，是象征军队或建制的旗帜。军旗主要用于参加典礼、检阅、隆重集会、游行等重要场合。中国人民解放军军旗自1927年以来主要发生了三次改变。
+				</p>
+				<br/>
+				<img src="imagestext/junqi/one.jpg">
+				<br/>
+				<p style="text-indent: 2em;">
+					1927年9月初，为筹备秋收起义，中国工农革命军研制了起义的旗帜：旗幅为红色，象征革命；靠旗杆一侧竖写“中国工农革命军第一军第一师”（后改写为中国工农红军）；旗帜中央为白色五角星，象征中国共产党领导；星内嵌交叉的镰刀斧头，表示工农民众紧密团结。
+				</p>
+				<br/>
+<!-- 				<img src="imagestext/junqi/two.jpg"> -->
+				<br/>
+				<p style="text-indent: 2em;">
+					1937年抗日战争开始后，中国工农红军改编为国民革命军第八路军和国民革命军陆军新编第四军，统一使用国民革命军军旗。国民革命军军旗（又称青天白日满地红）由青、白、红三色组成，红色作底色，中间是蓝底的青天白日。青天象征中华民族的光明磊落、崇高伟大的人格和志气；白日象征光明坦白、大公无私的纯正心地与思想，十二道光芒形象征中华文化所传承的美德。
+				</p>
+				<br/>
+				<img src="imagestext/junqi/three.jpg">
+				<br/>
+				<p style="text-indent: 2em;">
+					1949年6月，中华人民共和国中央军事委员会颁布命令，规定中国人民解放军军旗为：旗幅为红色，上缀金黄色的五角星及“八一”两字，五角星代表中国共产党的灿烂光辉，“八一”两字表示1927年8月1日南昌起义，象征着中国共产党的永远照耀和保护着炎黄子孙。
+				</p>
+				<br/>
+				<p style="text-indent: 2em;">
+					中国人民解放军军旗是中华人民共和国武装力量的标志，是中国人民解放军荣誉、勇敢和光荣的象征。它激励全体战员牢记自己的神圣职责，忠于祖国，忠于人民，忠于党，不惜牺牲自己的生命来捍卫祖国的神圣领土和尊严。
+				</p>
+	    	</div>
+	    	<div class="img" style="overflow-y: scroll;">
+	    		<h1>影视作品——强军之路</h1>
+	    		<br/>
+	    		<p style="text-indent: 2em;">
+	    			《强军之路》系列作品出自《将改革进行到底》大型政论专题片。
+	    		</p>
+	    		<span style="margin: 0 auto;width: 320px;height: 240px;display: block;">
+	    			<video width="320" height="240" controls="controls" controls>
+					  <source src="video/one.webm" type="video/webm" />
+					  <source src="video/one.ogg" type="video/ogg" />
+					  <source src="video/one.mp4" type="video/mp4" />
+					  <object data="video/one.mp4" width="320" height="240">
+					    <embed width="320" height="240" src="video/one.swf" />
+					  </object>
+					</video>
+				</span>
+	    		《强军之路》上：
+		    	<p style="text-indent: 2em;">
+					本集分为两大部分：一是反映“为什么改”，深刻阐述习主席领导推动改革强军的政治意蕴和战略考量，讲清改革的“时与势”；二是反映“怎么改”，采取讲故事手法，叙议结合，生动展现习主席亲自领导和运筹设计改革，再现这轮改革科学周密的研究论证过程，从总体上介绍改革的指导思想、目标任务和基本原则。本集还初步总结了军队改革组织实施的经验做法，体现这轮改革的缜密筹划、谋定后动，在无声中实现巨变，在行进间完成转身等特点。
+				</p>
+				<span style="margin: 0 auto;width: 320px;height: 240px;display: block;">
+	    			<video width="320" height="240" controls="controls" controls>
+					  <source src="video/two.webm" type="video/webm" />
+					  <source src="video/two.ogg" type="video/ogg" />
+					  <source src="video/two.mp4" type="video/mp4" />
+					  <object data="video/two.mp4" width="320" height="240">
+					    <embed width="320" height="240" src="video/two.swf" />
+					  </object>
+					</video>
+				</span>
+	    		《强军之路》下：
+		    	<p style="text-indent: 2em;">
+					敢于梦想是希望的沃土，勇于变革是制胜的先机，深度设计战略运筹，统率三军踏上伟大征程。习总书记宣布：“我命令，各战区要牢记使命，坚决贯彻党在新形势下的强军目标。”道道军令指挥攻坚大战，百万将士听党指挥决胜疆场！转型重塑三军焕然一新，放眼世界谋发展和平。与强国梦共铸民族伟业，和强军梦铁心同行，改革未有穷期，强军正在路上。
+				</p>
+			</div>
+			<div class="img">
+	    		<h1>军徽</h1>
+	    		<br/>
+	    		<p style="text-indent: 2em;">
+	    			“八一”军徽是中国人民解放军的重要标识徽记，也是解放军帽徽及军种符号的核心图案。 
+	    		</p>
+	    		<br/>
+		    	<img src="imagestext/junhui/one.png" style="width: 490px;height: 322px;margin-left: 60px;">
+		    	<br />
+		    	<br />
+		    	<p style="text-indent: 2em;">
+					中国人民解放军军徽，是 1949年 6月 15日由中国人民革命军事委员会命令颁布启用的，样式为镶有金黄色边的五角红星，中嵌金黄色“八一”两字，亦称“八一”军徽。红色为革命的颜色，让我们时刻铭记着战士勇于献身、不怕牺牲的鲜血，红星象征中国人民获得解放；“八一”两字表示1927年8月1日中国工农红军为反对国民党反动派，举行南昌起义，也代表着中国人民解放军的诞生。
+				</p>
+			</div>
+	    </div>
+	    <div id="buttons">
+	        <span index="1" class="on">军徽</span>
+	        <span index="2">军歌</span>
+	        <span index="3">军旗</span>
+	        <span index="4">影视</span>
+	    </div>
+	    <a href="javascript:;" id="prev" class="arrow">&lt;</a>
+	    <a href="javascript:;" id="next" class="arrow">&gt;</a>
+	</div>
+</div>
+<div style="height:40px;"></div>
+<div class="bottom" style="text-align:center;height: 50px;">
+</div>
+</div>
+</div>
+</body>
+</html>

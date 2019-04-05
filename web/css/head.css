@@ -1,0 +1,67 @@
+*{margin: 0;padding: 0;}
+body{
+	background: rgb(243,243,243);
+}
+/*顶部*/
+.top{
+	width: 1000px;
+	height: 200px;
+	background: url("../images/topback.png");
+	background-size: 100% 100%;
+	border-radius: 5px;
+	border: 2px solid rgb(46,124,108);
+}
+.lefttop{
+	float: left;
+	position: relative;
+	margin-left: 33px;
+	width: 180px;
+	height: 100px;
+	background: url("../images/lefttop.jpg");
+	background-size: auto 100%;
+	border-radius: 10px;
+}
+.middletop{
+	margin-left: 30px;
+	margin-top: -34px;
+	float: left;
+	width: 656px;
+	height: 158px;
+}
+/*头部*/
+.head{
+	width: 1010px;
+	height: 100px;
+	margin: 0 auto;
+}
+.headmain{
+	width: 166px;
+	background: rgb(0,132,229);
+	color:white;
+	font-size: 27px;
+	line-height: 100px;
+	float: left;
+	border-left: 1px solid gray;
+	text-align: center;
+	cursor: pointer;
+}
+.headmain span{
+	display: block;	
+	/*-webkit-box-reflect:below -73px -webkit-linear-gradient(transparent,transparent 36%,rgba(255,255,255,1));	*/
+}
+.headmain:hover{
+	background: rgb(140,224,253);
+	color: black;
+}
+#time{
+	float: right;
+	margin-top: -4px;
+}
+/*时间轴*/
+#list { width: 4200px; height: 400px; position: absolute; z-index: 1;}
+#list div{ 
+	float: left;width: 600px;height: 765px;
+	font-size: 20px;
+	overflow: none;
+	color: rgb(0,0,0);
+}

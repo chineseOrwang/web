@@ -1,0 +1,379 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>我的军旅梦-风雨历程</title>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/head.css">
+	<link rel="stylesheet" type="text/css" href="css/pageleft.css">
+	<!-- 控制文章更好看 -->
+	<link rel="stylesheet" type="text/css" href="css/pageright.css">
+	<!-- 时间轴 -->
+	<link rel="stylesheet" href="time/css/home.css">
+	<!-- 轮播图+时间动态 -->
+	<link rel="stylesheet" type="text/css" href="css/first.css">
+	<script type="text/javascript" src="js/haha.js"></script>
+</head>
+<body>
+<div class="body" style="width: 1020px; margin: 0 auto; background: url('images/back.png');background-size: 1010px 100%;">
+<div style="margin: 0 auto; width: 1000px;">  <!-- 目的居中 -->
+	<!-- 顶部 -->
+	<div class="top">
+		<div style="height: 50px"></div>   <!-- 上部空一点 -->
+		<div class="lefttop" id="lefttop" style="background-position: 0px 0px;"></div>   <!-- 左图 -->
+		<img src="images/middle.png" alt="" class="middletop" />    <!-- 中图 -->
+		<div id="time"></div>   <!-- 右时间 -->       
+		<div style="clear: both;"></div>
+	</div>
+	<!-- 头部 -->
+	<div class="head">
+		<div class="headmain" onclick="location.href='index.html'"><span>首页</span></div>
+		<div class="headmain" style="background: rgb(11,205,172);" onclick="location.href='first.html'"><span>风雨历程</span></div>
+		<div class="headmain" onclick="location.href='second.html'"><span>胶东军旅</span></div>
+		<div class="headmain" onclick="location.href='third.html'"><span>热血青春</span></div>
+		<div class="headmain" onclick="location.href='fourth.html'"><span>军旅知识</span></div>
+		<div class="headmain" onclick="location.href='fifth.html'"><span>趣味问答</span></div>
+		<div style="clear: both;"></div>
+	</div>
+	<!-- 内容部分 -->
+<!-- 下面写单独页面 -->
+<div class="zhengleft">
+	<ol style="font-size: 20px;" id="alinks">
+		<li class="lli on " index="1"><a class="flone"></a></li>
+		<li class="lli" index="2"><a class="fltwo"></a></li>
+		<li class="lli" index="3"><a class="flthree"></a></li>
+		<li class="lli" index="4"><a class="flfour"></a></li>
+		<li class="lli" index="5"><a class="flfive"></a></li>
+	</ol>
+	<hr style="margin-left: -25px;">
+	<ol class="xinshang">
+		<li>图片欣赏</li>
+		<li class="xinli"><img src="imagesnew/firstff.jpg" alt="" /></li>
+		<li class="xinli"><img src="imagesnew/firstfs.jpg" alt="" /></li>
+		<li class="xinli"><img src="imagesnew/firstft.jpg" alt="" /></li>
+	</ol>
+</div>
+<div class="zhengright">
+	<div>&nbsp;您的位置：<a href="index.html">首页</a>->风雨历程-><span id="firstspan">建军由来</span></div>
+	<div id="container">
+	    <div id="list" style="left: -600px;" value="5">
+			<!-- 传参 -->
+			<script type="text/javascript">
+				var list = document.getElementById("list");
+			    var url = location.search;
+			    str = url.split('=');
+			    list.style.left=-600*parseInt(str[1])+"px";
+			    // 下面改变你的位置文字
+			    var firstspan = document.getElementById('firstspan');
+			    setInterval(function(){
+			    	var num = parseInt(list.style.left);
+			    	console.log(num);
+			            switch(num){
+			                case -600:
+			                    firstspan.innerHTML="建军由来";
+			                    break;
+			                case -1200:
+			                    firstspan.innerHTML="红军历程";
+			                    break;
+			                case -1800:
+			                    firstspan.innerHTML="红军服装演变史";
+			                    break;
+			                case -2400:
+			                    firstspan.innerHTML="抗战胜利70周年阅兵&建军90周年阅兵精彩瞬间";
+			                    break;
+			                case -3000:
+			                    firstspan.innerHTML="建军90周年武器大揭秘";
+			                    break;
+			                default:;
+			            }
+			       },5
+			    )
+			</script>
+		    	    	<div class="img firstfo" style="overflow-y:scroll ">
+		    	<h1>建军90周年武器大揭秘</h1>
+		    	<br/>
+		    	<p style="text-indent: 2em;">
+		    		建军90周年阅兵仪式上共有护旗方队、纪念标识梯队和陆上作战、信息作战、特种作战、防空反导、海上作战、空中作战、综合保障、反恐维稳、战略打击等9个作战群。祖国越来越强大，武器更是多种多样，有一些武器还没有展出，下面我们来看一下我感兴趣的武器吧！
+		    	</p>
+		    	<br/>
+				<b>●首先上场的当然是威名远扬的歼-20隐形战斗机！</b>
+				<br/>
+				<img src="imagestext/weapon/one.png">
+				<br/>
+				<p style="text-indent: 2em;">
+					歼-20是一款单座双发动机并具备高隐身性、高态势感知、高机动性等能力的第五代战斗机，有着革命性的战场优势。知道它是怎么隐形的吗，是因为它涂上了一种特制的化学液体，使得雷达无法检测到，是不是特别厉害！
+				</p>
+				<br/>
+				<b>●接下来登场的是大家鲜有耳闻的运-8电子干扰机 。</b>
+				<br/>
+				<img src="imagestext/weapon/two.png">
+				<br/>
+				<p style="text-indent: 2em;">
+					运-8电子干扰机的机头脖颈两侧部位是两个鼓出的雷达整流罩，该机安装的是与其配套的KZ800大型机载电子侦察系统，可以根据战场需要，及时对其进行相同频率相同波段的干扰。就算敌方有我们检测不到的隐形飞机，我们也可以用运-8电子干扰机对它进行干扰，让它不能悄悄溜进我们国内。
+				</p>
+				<br/>
+				<b>●然后，是举世瞩目的东风-26洲际导弹出场。</b>
+				<br/>
+				<img src="imagestext/weapon/three.png">
+				<p style="text-indent: 2em;">
+					东风-26是中程弹道导弹，采用两级固体燃料火箭发动机；可携带重量为1.2吨至1.8吨的核弹头或常规弹头，并具备投送3个分导式多弹头能力；在射程方面，由于使用了高能推进剂，最大射程应该在5000公里以上。为什么说这颗导弹举世瞩目吗，因为它的威力实在是巨大，让许多国家为之羡慕。
+				</p>
+				<br/>
+				
+				<b>●最后登场的是一台威力巨大的武器，那就是99A型主战坦克。</b>
+				<br/>
+				<img src="imagestext/weapon/five.png">
+				<br/>
+				<p style="text-indent: 2em;">
+				99A型主战坦克是中国首款“信息化坦克”，实现了战场态势共享、协同攻防、状态监测、系统重构等功能，使坦克演变为战场重要的信息节点，实现战车之间的相互协同以及单车乘员彼此间的信息共享。不仅如此，它还是建军90周年阅兵仪式上的保护盾，默默保护着全体人员的安全。
+				</p>
+			</div>
+			<div class="img" >
+			<h1>建军由来</h1>
+	    		<div class="contrainerer headerer">
+					<div class="w1000 tc body">
+						<div class="event_wrap clearfix">
+							<div class="middle_line" style="position: absolute;">					
+							</div>	
+							<!-- 在这里生成div -->
+							<!-- 结构是:
+								div.list_left->span.big_squre->i年份
+									div.ev_text#yjsj->span.small_squire->i  棱形
+										span.small_line  小横线
+										h3  1927年4月
+										p   文字
+							-->
+						</div>
+					</div>
+				</div>
+		    	<script src="time/js/jquery.min.js"></script>
+				<script src='time/js/jquery.eventFlow.js'></script>
+				<script>
+					$(function(){
+						var bigEvent =[
+							{
+								'year' : 1927,
+								'events' :[
+									{
+										'mouths' : 4,     //控制高度
+										'times' :'1927年4月',
+										'even' :'蒋介石发动“四一二”政变，共产党人遭到驱逐。'
+									},{
+										'mouths' :8,
+										'times' :'1927年8月1日',
+										'even' :'&nbsp;打响了反抗国民党的第一枪。最终占领了南昌城！'
+									},{
+										'mouths' : 9,
+										'times' :'1929年9月',
+										'even' :'秋收起义，首次公开打出中国共产党的革命旗帜。'
+									}
+								]
+							},
+							{
+								'year' : 1933,
+								'events' :[
+									{
+										'mouths' : 11,
+										'times' :'1933年7月11日',
+										'even' :'苏维埃政府决定8月1日为中国工农红军纪念日。'
+									},
+									{
+										'mouths' : 12,
+										'times' :'1949年10月1日',
+										'even' :'8月1日改称为中国人民解放军建军节。'
+									},
+								]
+							}
+						];
+						$('.event_wrap').eventFlow({'events':bigEvent});
+					})
+				</script>
+	    	</div>
+	    	<div class="img firstf" style="overflow-y: scroll;">
+	    		<h1>红军历程</h1>
+	    		<br/>
+	    		<p style="text-indent: 2em;">
+	    			中国人民解放军诞生于 1927 年 8 月 1日。 1927.7-1937.7土地革命战争时期称中国工农红军，1937.7.7-1945.8.15 抗日战争时期称八路军和新四军， 从1945.8.16-1950.6解放战争时期起改称中国人民解放军。
+	    		</p>
+	    		<br/>
+	    		<img src="imagesnew/firstff.jpg">
+	    		<br/>
+	    		<i>上图为红军时期中央红军红四团部队冒着枪林弹雨飞夺泸定桥</i>
+	    		<br/>
+	    		<img src="imagesnew/firstfs.jpg">
+	    		<br/>
+	    		<i>上图为抗战时期狼牙山五壮士，战士们英勇抗敌，坚贞不屈。</i>
+	    		<br/>
+	    		<img src="imagesnew/firstft.jpg">
+	    		<br/>
+	    		<i>上图为解放战争时期鲁西南战役，晋冀鲁豫野战军与国民党军交战。</i>
+	    		<br/>
+	    		<p style="text-indent: 2em;">
+	    			中国人民解放军是中国共产党缔造和领导的全心全意为人民服务的人民军队。是中华人民共和国的武装力量。 
+	    		</p>
+	    	</div>
+	    	<div class="img firsts" style="overflow-y: scroll;">
+	    		<h1>红军服装演变史</h1>
+	    		<br/>
+	    		<p style="text-indent: 2em;">
+	    			1929年3月，中央红军红四军解放长汀后，赶制4000套军装。从此第一批正规的红军军装诞生，因需要经常在山地行军作战故颜色为灰色，每套有一幅裹腿和红五星军帽。
+	    		</p>
+	    		<br/>
+	    		<img src="imagesnew/firstsf.png">
+	    		<br/>
+	    		<i>第一批红军军服</i>
+	    		<br/>
+	    		<p style="text-indent: 2em;">
+	    			1938年1月6日，新四军军部在南昌成立。 新四军是抗日战争时期中国共产党领导的人民军队。全称国民革命军陆军新编第四军。八路军、新四军军服式样、颜色和用料，由于客观条件限制，不够统一，一般由各大战略区领率机关决定。多数部队沿用国民党军队的军服式样。颜色以黄、灰居多。用料以粗布为主。八路军军服多为土黄色，佩戴“八路”二字的长方形肩章。
+	    		</p>
+	    		<br/>
+	    		<img src="imagesnew/firstss.png">
+	    		<br/>
+	    		<i>改编后新四军军服</i>
+	    		<br/>
+	    		<p style="text-indent: 2em;">
+	    			中国人民解放军军服是以1927年8月1日南昌起义时部队穿的国民革命军的服装而改装的，已经到2007年先后有七个版本的军服。现行的版本是07式。
+	    		</p>
+	    		<br/>
+	    		<img src="imagesnew/firstst.png">
+	    		<br/>
+	    		<i>现行的中国人民解放军军服</i>
+	    		<br/>
+	    		<p style="text-indent: 2em;">
+	    			现行的中国人民解放军军服采用了大量新技术新材料和新工艺，品种设计更加完善配套，整体设计风格典雅质朴，款式造型更具时代特色，颜色更加协调庄重。 
+	    		</p>
+	    	</div>
+	    	<div class="img" >
+	    		<h1>抗战胜利70周年&建军90周年阅兵精彩瞬间</h1>
+				<div style="margin-left:130px;width:320px; height:240px">
+		    		<video width="320" height="240" controls="controls" controls>
+					  <source src="video/yuebing.webm" type="video/webm" />
+					  <source src="video/yuebing.ogg" type="video/ogg" />
+					  <source src="video/yuebing.mp4" type="video/mp4" />
+					  <object data="video/yuebing.mp4" width="320" height="240">
+					    <embed width="320" height="240" src="video/yuebing.swf" />
+					  </object>
+					</video>
+				</div>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+			<p style="text-indent: 2em;">
+	    			为纪念中国人民解放军建军90周年的特殊日子，我特意挑选具有重大意义的抗战胜利70周年阅兵和建军90周年阅兵的精彩瞬间剪辑到一起，经历了八年抗战，走过了九十年的艰辛奋斗，砌起了九十年的深厚基石，我们中华儿女，再也不怕外敌的威胁，海陆空三军威力无敌，震慑四方！我为祖国自豪，我为中国人民解放军骄傲！
+	    		</p>
+	    	</div>
+	    	<div class="img firstfo" style="overflow-y:scroll ">
+		    	<h1>建军90周年武器大揭秘</h1>
+		    	<br/>
+		    	<p style="text-indent: 2em;">
+		    		建军90周年阅兵仪式上共有护旗方队、纪念标识梯队和陆上作战、信息作战、特种作战、防空反导、海上作战、空中作战、综合保障、反恐维稳、战略打击等9个作战群。祖国越来越强大，武器更是多种多样，有一些武器还没有展出，下面我们来看一下我感兴趣的武器吧！
+		    	</p>
+		    	<br/>
+				<b>●首先上场的当然是威名远扬的歼-20隐形战斗机！</b>
+				<br/>
+				<img src="imagestext/weapon/one.png">
+				<br/>
+				<p style="text-indent: 2em;">
+					歼-20是一款单座双发动机并具备高隐身性、高态势感知、高机动性等能力的第五代战斗机，有着革命性的战场优势。知道它是怎么隐形的吗，是因为它涂上了一种特制的化学液体，使得雷达无法检测到，是不是特别厉害！
+				</p>
+				<br/>
+				<b>●接下来登场的是大家鲜有耳闻的运-8电子干扰机 。</b>
+				<br/>
+				<img src="imagestext/weapon/two.png">
+				<br/>
+				<p style="text-indent: 2em;">
+					运-8电子干扰机的机头脖颈两侧部位是两个鼓出的雷达整流罩，该机安装的是与其配套的KZ800大型机载电子侦察系统，可以根据战场需要，及时对其进行相同频率相同波段的干扰。就算敌方有我们检测不到的隐形飞机，我们也可以用运-8电子干扰机对它进行干扰，让它不能悄悄溜进我们国内。
+				</p>
+				<br/>
+				<b>●然后，是举世瞩目的东风-26洲际导弹出场。</b>
+				<br/>
+				<img src="imagestext/weapon/three.png">
+				<p style="text-indent: 2em;">
+					东风-26是中程弹道导弹，采用两级固体燃料火箭发动机；可携带重量为1.2吨至1.8吨的核弹头或常规弹头，并具备投送3个分导式多弹头能力；在射程方面，由于使用了高能推进剂，最大射程应该在5000公里以上。为什么说这颗导弹举世瞩目吗，因为它的威力实在是巨大，让许多国家为之羡慕。
+				</p>
+				<br/>
+				
+				<b>●最后登场的是一台威力巨大的武器，那就是99A型主战坦克。</b>
+				<br/>
+				<img src="imagestext/weapon/five.png">
+				<br/>
+				<p style="text-indent: 2em;">
+				99A型主战坦克是中国首款“信息化坦克”，实现了战场态势共享、协同攻防、状态监测、系统重构等功能，使坦克演变为战场重要的信息节点，实现战车之间的相互协同以及单车乘员彼此间的信息共享。不仅如此，它还是建军90周年阅兵仪式上的保护盾，默默保护着全体人员的安全。
+				</p>
+			</div>
+	    	<div class="img" >
+			<h1>建军由来</h1>
+	    		<div class="contrainerer headerer">
+					<div class="w1000 tc body">
+						<div class="event_wrap clearfix">
+							<div class="middle_line" style="position: absolute;">					
+							</div>			
+						</div>
+					</div>
+				</div>
+		    	<script src="time/js/jquery.min.js"></script>
+				<script src='time/js/jquery.eventFlow.js'></script>
+				<script>
+					$(function(){
+						var bigEvent =[
+							{
+								'year' : 1927,
+								'events' :[
+									{
+										'mouths' : 4,
+										'times' :'1927年4月',
+										'even' :'蒋介石发动“四一二”政变，共产党人遭到驱逐。'
+									},{
+										'mouths' :8,
+										'times' :'1927年8月1日',
+										'even' :'打响了武装反抗国民党的第一枪。最终占领了南昌城！'
+									},{
+										'mouths' : 9,
+										'times' :'1929年9月',
+										'even' :'秋收起义，首次公开打出中国共产党的革命旗帜。'
+									}
+								]
+							},
+							{
+								'year' : 1933,
+								'events' :[
+									{
+										'mouths' : 11,
+										'times' :'1933年7月11日',
+										'even' :'苏维埃政府决定8月1日为中国工农红军纪念日。'
+									},
+									{
+										'mouths' : 12,
+										'times' :'1949年10月1日',
+										'even' :'8月1日改称为中国人民解放军建军节。'
+									},
+								]
+							}
+						];
+						$('.event_wrap').eventFlow({'events':bigEvent});
+					})
+				</script>
+	    	</div>
+	    </div>
+	    <div id="buttons">
+	        <span index="1" class="on">第一篇</span>
+	        <span index="2">第二篇</span>
+	        <span index="3">第三篇</span>
+	        <span index="4">第四篇</span>
+	        <span index="5">第五篇</span>
+	    </div>
+	    <a href="javascript:;" id="prev" class="arrow">&lt;</a>
+	    <a href="javascript:;" id="next" class="arrow">&gt;</a>
+	</div>
+</div>
+<div style="height:40px;"></div>
+<div class="bottom" style="text-align:center;height: 50px;">
+</div>
+</div>
+</div>
+</body>
+</html>

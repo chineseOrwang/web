@@ -1,0 +1,126 @@
+﻿*{margin: 0;padding: 0;}
+body{
+	background: rgb(243,243,243);
+}
+/*顶部*/
+.top{
+	width: 1000px;
+	height: 200px;
+	background: url("../images/topback.png");
+	background-size: 100% 100%;
+	border-radius: 5px;
+	border: 2px solid rgb(46,124,108);
+}
+.lefttop{
+	float: left;
+	position: relative;
+	margin-left: 33px;
+	width: 180px;
+	height: 100px;
+	background: url("../images/lefttop.jpg");
+	background-size: auto 100%;
+	border-radius: 10px;
+}
+.middletop{
+	margin-left: 30px;
+	margin-top: -34px;
+	float: left;
+	width: 656px;
+	height: 158px;
+}
+/*头部*/
+.head{
+	width: 1010px;
+	height: 100px;
+	margin: 0 auto;
+}
+.headmain{
+	width: 166px;
+	background: rgb(0,132,229);
+	color:white;
+	font-size: 27px;
+	line-height: 100px;
+	float: left;
+	border-left: 1px solid gray;
+	text-align: center;
+	cursor: pointer;
+}
+.headmain span{
+	display: block;	
+	/*-webkit-box-reflect:below -73px -webkit-linear-gradient(transparent,transparent 36%,rgba(255,255,255,1));	*/
+}
+.headmain:hover{
+	background: rgb(140,224,253);
+	color: black;
+}
+#time{
+	float: right;
+	margin-top: -4px;
+}
+#time img{       /*调试时间大小用*/
+/*	width: 20px;
+	height: 30px;*/
+}
+/*内容部分*/
+    /*左边*/
+.content{
+	width: 1020px;
+}
+.singleleft{
+	padding-top: 63px;
+	line-height: 50px;
+	width: 370px;
+	height: 746px;
+	background: url("../images/singleone.png");
+	background-size: 100% 100%;
+	font-size: 20px;
+	float: left;
+	clear: both;
+}
+.textgun{
+	width: 370px;
+	height: 591px;
+	overflow: hidden;
+	margin-top: 70px;
+}
+#homeleftgun{
+	position: relative;
+}
+    /*右边*/
+.right{
+	margin-left: 370px;
+	width: 630px;
+	border: 2px solid gray;
+}
+.rightone{
+	width: 630px;
+	height: 156px;
+	background: url("../images/rightone.png");
+	background-size: 100% 100%;
+}
+.righttwo{
+	width: 630px;
+	height: 186px;
+	background: url("../images/righttwo.png");
+	background-size: 100% 100%;
+}
+.rightthree{
+	width: 630px;
+	height: 183px;
+	background: url("../images/rightthree.png");
+	background-size: 100% 100%;
+}
+.rightfour{
+	width: 630px;
+	height: 160px;
+	background: url("../images/rightfour.png");
+	background-size: 100% 100%;
+}
+.right p{
+	font-size: 20px;
+	font-weight: 400;
+	cursor: pointer;
+}
+.right p:hover{
+	font-weight: 600;
+}
